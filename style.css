@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C9E3FF; 
+}
+
+/* Header*/
+header {
+    display: grid;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    grid-template-columns: auto;
+    min-height: 60px;
+    border-bottom: 1px solid #d4d4d4;   
+    background-color: #FF2E39;
+    z-index: 10;
+    
+}
+h3 {
+   margin: 3px 0 0 15px; 
+   color: yellow; 
+   line-height: 0.8;
+   font-size: 29px;
+   font-weight: 500;
+}
+
+/* Notes Area */
+.notes-div {
+    display: grid;
+    margin: 65px auto 125px auto;
+    padding-left: 10px;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 0px;
+    row-gap: 15px;
+
+}  .notes-div > h1 {
+	display: block;
+	margin: 40px 0 0 auto;  
+	font-family: serif;
+	font-weight: 500;
+}
+.note {
+     position: relative;
+     font-family: arial;
+     width: 204px;
+     height: 204px;       
+     padding-top: 5px;  
+     box-shadow: 0 2px 7px 0 rgba(0,0,0,0.12); 
+     transition: all 0.2s;
+} .note:hover {box-shadow: 0 4px 15px 0 rgba(0,0,0,0.25); } 
+.note > button {
+    position: absolute;
+    bottom: 0; right: 0;
+    width: 20px; height: 20px;
+    border: none;
+    background: none; cursor: pointer;
+} .note > button:hover {
+    font-weight: bold;
+    background-color:#ccc;
+}
+ .note-text {
+ 	font-size: 15px;
+ }
+ .note-date {
+ 	 position: absolute;
+    bottom: 0; left: 0;
+    font-size: 15px;
+    font-family:  sans-serif;
+    background-color: white;
+    padding: 0px 3px;
+ }
+
+
+/* Text Area */
+footer {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;   
+    border-top: 1px solid black;
+    background-color: white;
+} 
+    #text1 {
+        resize: none;
+        height: 90px;
+    }
+    .buttons-div {
+        border: 1px solid gray;
+        display: inline-grid;
+        grid-template-columns: auto auto auto auto ;
+        grid-template-rows: auto auto auto;
+        gap: 5px;
+    } .buttons-div > button {
+        border: none;
+    }
+    .item1 {
+    	grid-column: 1 / span 2;
+    	background-color: green;
+    	color: white;
+    	transition: all 0.25s;
+    }  .item1:hover {background-color: lightgreen; color: black;}
+    .item2 {
+      background-color: red;
+      color: white;
+      transition: all 0.25s;
+    }  .item2:hover {background-color: tomato; color: black;}
+    .item3 {
+    	transition: all 0.25s;
+    	background-color: black;
+    	color: white;
+    } .item3:hover {
+    opacity: 0.8; 
+    font-size: 110%;
+    }
+    .font1,.font2,.font3,.font4,.font5,.font6 {
+    	
+    } .on {
+    	background-color: black;
+    	color: white;
+    }

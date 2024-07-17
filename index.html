@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+ <html lang="en-us">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Notes Space</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+     
+     <header>
+        <h3>
+        Notes <br> &nbsp; &nbsp; Space
+        </h3>  
+     </header>
+     
+      <div class="notes-div">
+        <h1>Here you see the notes.</h1>
+      </div> 
+     
+     
+     <footer class="big-div div1">
+      <textarea type"text" id="text1" ></textarea> 
+        <div class="buttons-div">
+            <button class="item1" onclick="addNote();">Add</button>
+            <button class="item2" onclick="deleteNote(0,infoArray.length);">Del All</button>
+            <button class="item3" onclick="changeColor();">Font Color</button>
+            <button class="font1" onclick="changeFont('serif'); toggleButton('.font1');" 
+             style="font-family: serif;"> Serif </button> 
+            <button class="font2" onclick="changeFont('arial'); toggleButton('.font2');"
+             style="font-family: arial;"> Arial </button> 
+            <button class="font3" onclick="changeFont(`garamond`); toggleButton('.font3');" 
+             style="font-family: garamond;"> Garamond </button> 
+            <button class="font4" onclick="changeFont('verdana'); toggleButton('.font4');" 
+             style="font-family: verdana;"> Verdana </button> 
+            <button class="font5" onclick="changeFont('cursive'); toggleButton('.font5');" 
+             style="font-family: cursive;"> Cursive </button> 
+            <button class="font6" onclick="changeFont('monospace'); toggleButton('.font6');"
+             style="font-family: monospace;"> Monospace </button> 
+            <button class="font7" onclick="changeFont('georgia'); toggleButton('.font7');"
+             style="font-family: georgia;"> Georgia </button>  
+            <button class="font8" onclick="changeFont('impact'); toggleButton('.font8');" 
+             style="font-family: impact;"> Impact </button>  
+            
+        </div>
+     </footer>
+     
+    
+     
+   <script src="script.js"></script>
+ </body>
+ </html>
