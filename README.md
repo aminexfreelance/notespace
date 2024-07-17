@@ -9,9 +9,9 @@ Notes Space is a straightforward website designed for users to jot down and mana
 
 
 
-# Freelancing
+## Freelancing
 For freelancing service contact me on my instagram [@aminexfreelance](https://www.instagram.com/aminexfreelance)
-# My Crypto Wallet Address 
+### My Crypto Wallet Address 
 I well really appreciate you support
 - BTC 
 - SOL 
