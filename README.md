@@ -1,16 +1,12 @@
 # Note Space
 Notes Space is a straightforward website designed for users to jot down and manage their notes effortlessly. With a clean and intuitive interface, it offers essential features to enhance productivity and organization.
 
-
-
-
-
-
-
-
+> [!NOTE]
+> Click on this link to view the [project](https://aminexfreelance.github.io/notespace)
 
 ## Freelancing
 For freelancing service contact me on my instagram [@aminexfreelance](https://www.instagram.com/aminexfreelance)
+Payement Received by Crypto only.
 ## My Crypto Wallet Address 
 I well really appreciate you support.
 
