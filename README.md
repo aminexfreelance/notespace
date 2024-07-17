@@ -14,6 +14,6 @@ For freelancing service contact me on my instagram [@aminexfreelance](https://ww
 ## My Crypto Wallet Address 
 I well really appreciate you support.
 
-- SOL - 
-- ETH -
-- BTC - 
+- SOL - ELEGEdL3g5NXaSwXReDS9JJoYkF1eFNsKqteBYTSBaNu
+- ETH - 0xDF273F84348a37efA8e292c1292A5DA40dd92773
+- BTC - bc1q6qda5sanndptu706w2evz4mvw8r5unuzdhmunc
